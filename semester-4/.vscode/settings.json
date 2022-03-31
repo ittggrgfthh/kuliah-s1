@@ -1,0 +1,10 @@
+{
+  "java.project.sourcePaths": [
+    "oop-java/tugas/02",
+    "oop-java/tugas/01",
+    "oop-java/tugas/03",
+    "oop-java\\tugas\\04",
+    "oop-java\\tugas\\05"
+  ],
+  "java.project.outputPath": "oop-java\\bin"
+}

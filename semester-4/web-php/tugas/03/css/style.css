@@ -1,0 +1,42 @@
+body {
+  background-image: url(../img/pattern.jpg);
+}
+/* header */
+header {
+  text-align: center;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+  /* background-color: red; */
+}
+
+/* main content */
+.container {
+  display: flex;
+
+  background-color: greenyellow;
+}
+
+/* navbar */
+nav {
+  margin: 1px;
+  background-color: aqua;
+  border: 1px;
+}
+
+nav ul li {
+  text-decoration: none;
+  display: inline;
+  margin-right: 10px;
+}
+
+/* footer */
+footer {
+  margin-top: 20px;
+  background-color: black;
+}
+
+footer p {
+  text-align: center;
+  color: white;
+}
