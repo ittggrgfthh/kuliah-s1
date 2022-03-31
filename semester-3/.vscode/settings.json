@@ -1,0 +1,66 @@
+{
+    "files.associations": {
+      "iosfwd": "cpp",
+      "string": "cpp",
+      "ostream": "cpp",
+      "iostream": "cpp",
+      "array": "cpp",
+      "string_view": "cpp",
+      "iomanip": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "Disabled",
+    "cmake.configureOnOpen": false,
+    "editor.tokenColorCustomizations": {
+        "[GitHub Dark Colorblind (Beta)]":{
+          "textMateRules": [
+            {
+              "scope": "keyword.control",
+              "settings": {
+                "fontStyle": "italic",
+                "foreground": "#C586C0"
+              }
+            },
+            {
+              "scope": ["storage.type", "entity.name.function.preprocessor.cpp"],
+              "settings": {
+                "fontStyle": "italic",
+                "foreground": "#569CD6"
+              }
+            },
+            {
+              "scope": ["string", "punctuation.definition.string"],
+              "settings": {
+                "foreground": "#CE9178"
+              }
+            },
+            {
+              "scope": ["comment", "punctuation.definition.comment"],
+              "settings": {
+                "fontStyle": "italic",
+                "foreground": "#6A9955"
+              }
+            },
+            {
+              "scope": ["variable.other.global.cpp", "entity.name.function.cpp"],
+              "settings": {
+                "foreground": "#ec8105"
+              }
+            },
+            {
+              "scope": ["entity.name.type.cpp"],
+              "settings": {
+                "fontStyle": "italic",
+                "foreground": "#4EC9B0"
+              }
+            },
+            {
+              "scope": "entity.name.function.cpp",
+              "settings": {
+                "foreground": "#3bd4ae"
+              }
+            }
+          ]
+        }
+      }
+    
+}
