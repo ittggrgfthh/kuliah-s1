@@ -1,0 +1,5 @@
+bin
+*.tds
+*.obj
+*.exe
+desktop.ini
