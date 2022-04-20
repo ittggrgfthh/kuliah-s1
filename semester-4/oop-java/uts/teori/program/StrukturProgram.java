@@ -12,6 +12,7 @@ public class StrukturProgram {
 
     // Method main adalah method yang akan dijalankan pertama kali oleh sistem.
     public static void main(String[] args) {
+
         // Nomor 2
         // variabel dengan nama nilaiTugas yang memiliki tipe data non primitif String
         // yang memiliki nilai "95";
