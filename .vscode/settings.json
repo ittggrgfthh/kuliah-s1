@@ -1,7 +1,13 @@
 {
   "java.project.sourcePaths": [
     "semester-4\\oop-java\\tugas\\01",
-    "semester-4\\oop-java\\tugas\\05"
+    "semester-4\\oop-java\\tugas\\05",
+    "semester-4\\oop-java\\tugas\\07",
+    "semester-4\\oop-java\\tugas\\02",
+    "semester-4\\oop-java\\tugas\\03",
+    "semester-4\\oop-java\\tugas\\04",
+    "semester-4\\oop-java\\tugas\\06",
+    "semester-4\\oop-java\\uts\\teori"
   ],
   "java.project.outputPath": "semester-4\\oop-java\\bin"
 }
