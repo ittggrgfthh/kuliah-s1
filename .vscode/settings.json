@@ -8,7 +8,12 @@
     "semester-4\\oop-java\\tugas\\04",
     "semester-4\\oop-java\\tugas\\06",
     "semester-4\\oop-java\\uts\\teori",
-    "semester-4\\oop-java\\uts\\praktek"
+    "semester-4\\oop-java\\uts\\praktek",
+    "semester-4\\oop-java\\tugas\\08"
   ],
-  "java.project.outputPath": "semester-4\\oop-java\\bin"
+  "java.project.outputPath": "semester-4\\oop-java\\bin",
+  "java.project.referencedLibraries": [
+    "lib/**/*.jar",
+    "c:\\Users\\Farhan\\Downloads\\Compressed\\mysql-connector-java-8.0.29\\mysql-connector-java-8.0.29\\mysql-connector-java-8.0.29.jar"
+  ]
 }
