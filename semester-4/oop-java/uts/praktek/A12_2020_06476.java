@@ -37,6 +37,7 @@ public class A12_2020_06476 extends JFrame implements ActionListener {
 
         JDesktopPane paneGaji = new JDesktopPane();
 
+        // Frontend
         // set object posisiton on container
         labelNIP.setBounds(15, 15, 120, 15);
         fieldNIP.setBounds(15, 35, 150, 25);
@@ -103,7 +104,7 @@ public class A12_2020_06476 extends JFrame implements ActionListener {
         paneGaji.add(buttonHitung);
 
         // add object panel (panelPegawai) to frame container
-        getContentPane().add(paneGaji).setBackground(Color.PINK);
+        getContentPane().add(paneGaji).setBackground(Color.YELLOW);
 
         // display frame on monitor
         pack();
@@ -113,6 +114,7 @@ public class A12_2020_06476 extends JFrame implements ActionListener {
         new A12_2020_06476().setVisible(true);
     }
 
+    // Backend
     public void actionPerformed(ActionEvent ae) {
         Object obj = ae.getSource();
 
