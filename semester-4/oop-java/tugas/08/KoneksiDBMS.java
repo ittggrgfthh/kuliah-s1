@@ -1,8 +1,8 @@
 import java.sql.*;
 
 public class KoneksiDBMS {
-    String driverdbms = "com.mysql.jdbc.Driver";
-    String database = "jdbc:mysql://localhost:8081/dbfarhan06476";
+    String driverdbms = "com.mysql.cj.jdbc.Driver";
+    String database = "jdbc:mysql://localhost:3306/dbfarhan06476"; // port mysql
     String user = "farhan06476";
     String password = "";
 
@@ -14,7 +14,7 @@ public class KoneksiDBMS {
         try {
             Class.forName(driverdbms);
             condbms = DriverManager.getConnection(database, user, password);
-
+            System.out.println("udah connect!");
             return condbms;
         } catch (SQLException se) {
             System.out.println("SQL Error!");
