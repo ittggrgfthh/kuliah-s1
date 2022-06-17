@@ -1,11 +1,11 @@
 <?php 
 
-$HOST = "localhost";
-$USERNAME = "root";
-$PASSWORD = "";
-$DATABASE = "kuliah_web";
+const HOST = "localhost";
+const USERNAME = "root";
+const PASSWORD = "";
+const DATABASE = "kuliah_web";
 
-$conn = mysqli_connect($HOST, $USERNAME, $PASSWORD, $DATABASE);
+$conn = mysqli_connect(HOST, USERNAME, PASSWORD, DATABASE);
 
 if(!$conn){
     echo "Connection Failed!";
