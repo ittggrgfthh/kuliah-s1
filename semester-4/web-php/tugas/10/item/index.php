@@ -55,11 +55,13 @@ if (isset($_POST["search"])) {
                 <?php } ?>
             </div>
             <div class="mb-4">
-                <a type="button" class="btn btn-success" href="add.php">Tambah Data</a>
-            </div>
-            <!-- button print -->
-            <div class="mb-4">
-                <a type="button" class="btn btn-secondary" href="../pdf.php" target="_blank" >Ubah ke PDF</a>
+                <div class="row gap-2 justify-content-start">
+                    <a type="button" class="btn btn-success col-2" href="add.php">Tambah Data</a>
+                    <a type="button" class="btn btn-secondary col-2" href="pdf.php" >Ubah ke PDF</a>
+                </div>
+                
+                
+                <!-- button print -->
             </div>
 
             <div class="my-4 container-fluid">
