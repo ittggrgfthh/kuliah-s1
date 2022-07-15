@@ -1,7 +1,7 @@
 package src;
 
-// import src.view.FrameLogin;
-import src.view.FrameMenu;
+import src.view.FrameLogin;
+// import src.view.FrameMenu;
 
 public class App {
 
@@ -23,10 +23,10 @@ public class App {
             AppConfig.PROGRAM_TITLE[i] = AppConfig.PROGRAM_TITLE[i] + " | " + AppConfig.AUTHOR;
         }
 
-        FrameMenu app = new FrameMenu();
-        app.setVisible(true);
-
-        // FrameLogin app = new FrameLogin();
+        // FrameMenu app = new FrameMenu();
         // app.setVisible(true);
+
+        FrameLogin app = new FrameLogin();
+        app.setVisible(true);
     }
 }
