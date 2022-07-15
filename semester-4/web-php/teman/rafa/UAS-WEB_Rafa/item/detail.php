@@ -38,14 +38,14 @@ $barang = query("SELECT * FROM barang WHERE id_barang = '$idBarang'")[0];
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/mystyle.css">
 
-    <title>Update Barang</title>
+    <title>Detail Barang</title>
 </head>
 
 <body>
     <div class="flex-box">
         <div class="main-content">
             <div class="my-4">
-                <h1>Ubah Barang</h1>
+                <h1>Detail Barang</h1>
                 <?php if ($message) { ?>
                     <div class="alert <?= $alertType ?> alert-dismissible fade show" role="alert">
                         <?= $message ?>

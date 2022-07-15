@@ -109,6 +109,7 @@ if (isset($_POST["update-item"])) {
                         <input type="text" name="satuan" class="form-control" id="satuan" autocomplete="off" value="<?= $barang["satuan"] ?>">
                     </div>
                     <button type="submit" name="update-item" class="btn btn-success">Update Barang</button>
+                    <a href="index.php" class="btn btn-primary">Kembali</a>
                 </form>
             </div>
         </div>
