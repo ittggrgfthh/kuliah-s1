@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/yellow">
+
+    <TextView
+        android:id="@+id/kode"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:hint="kode" />
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/kode"
+        android:textColor="@color/blue"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:hint="Nama" />
+
+    <TextView
+        android:id="@+id/jumlah"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/nama"
+        android:textColor="@color/blue"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:hint="jumlah" />
+
+    <TextView
+        android:id="@+id/satuan"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:layout_toRightOf="@id/jumlah"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:hint="satuan" />
+
+    <TextView
+        android:id="@+id/harga"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/satuan"
+        android:textColor="@color/blue"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:hint="harga" />
+
+
+
+</RelativeLayout>

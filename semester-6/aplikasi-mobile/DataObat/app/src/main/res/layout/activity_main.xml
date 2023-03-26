@@ -7,6 +7,8 @@
     tools:context=".MainActivity">
 
     <LinearLayout
+        android:divider="@android:drawable/divider_horizontal_textfield"
+        android:showDividers="middle"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -24,8 +26,9 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <ListView
-            android:id="@+id/listObat"
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewObat"
+            android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
     </LinearLayout>
@@ -40,7 +43,6 @@
             android:id="@+id/inputButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
             android:background="@color/blue"
             android:text="input"
             android:textSize="20sp"

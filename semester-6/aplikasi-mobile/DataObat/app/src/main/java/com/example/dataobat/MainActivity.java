@@ -1,6 +1,8 @@
 package com.example.dataobat;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.database.Cursor;
@@ -13,27 +15,36 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
     DatabaseHelper dbh;
-    ListView listObat;
 
-    ArrayList listItem;
-    ArrayAdapter adapter;
+    RecyclerView recyclerObat;
+    ArrayList<ModelObat> obatArrayList = new ArrayList<>();
+    AdapterObat adapterObat;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         dbh = new DatabaseHelper(this);
-        listObat = findViewById(R.id.listObat);
-        listItem = new ArrayList<>();
+
+        recyclerObat = findViewById(R.id.recyclerViewObat);
+
 
         Cursor cursor = dbh.ReadData();
-        listItem.clear();
 
         while (cursor.moveToNext()){
-        listItem.add(cursor.getString(0) + "     " + cursor.getString(1) + " " + cursor.getString(2) + " " + cursor.getString(3) + " " + cursor.getString(4));
+            ModelObat obat = new ModelObat();
+            obat.setFieldKode(cursor.getString(0));
+            obat.setFieldNama(cursor.getString(1));
+            obat.setFieldJumlah(cursor.getString(2));
+            obat.setFieldSatuan(cursor.getString(3));
+            obat.setFieldHarga(cursor.getString(4));
+
+            obatArrayList.add(obat);
         }
-        adapter = new ArrayAdapter(MainActivity.this, androidx.appcompat.R.layout.support_simple_spinner_dropdown_item, listItem);
-        listObat.setAdapter(adapter);
+
+        recyclerObat.setLayoutManager(new LinearLayoutManager(this));
+        adapterObat = new AdapterObat(obatArrayList, this);
+        recyclerObat.setAdapter(adapterObat);
     }
 
 
