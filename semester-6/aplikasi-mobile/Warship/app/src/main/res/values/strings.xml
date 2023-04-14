@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Warship Shop</string>
+
+    <string-array name="data_name">
+        <item>Agir</item>
+        <item>Ryujo</item>
+        <item>Siegfried</item>
+        <item>Roon</item>
+        <item>Moskva</item>
+        <item>Des Moines</item>
+        <item>Ohio</item>
+        <item>Yamato</item>
+        <item>Bismarck</item>
+        <item>Musashi</item>
+        <item>San Diego</item>
+        <item>Enterprise</item>
+    </string-array>
+    <string-array name="data_type">
+        <item>Heavy Cruiser</item>
+        <item>Aircraft Carrier</item>
+        <item>Heavy Cruiser</item>
+        <item>Heavy Cruiser</item>
+        <item>Heavy Cruiser</item>
+        <item>Heavy Cruiser</item>
+        <item>Battleship</item>
+        <item>Battleship</item>
+        <item>Battleship</item>
+        <item>Battleship</item>
+        <item>Light Cruiser</item>
+        <item>Aircraft Carrier</item>
+    </string-array>
+    <string-array name="data_description">
+        <item>SMS Ägir was the second and final member of the Odin class of coastal defense ships (Küstenpanzerschiffe) built for the Imperial German Navy. She had one sister ship, Odin. Ägir was named for the norse god, and was built by the Kaiserliche Werft Danzig shipyard between 1893 and 1896. She was armed with a main battery of three 24-centimeter (9.4 in) guns. She served in the German fleet throughout the 1890s and was rebuilt in 1901–1903. She served in the VI Battle Squadron after the outbreak of World War I in August 1914, but saw no action. Ägir was demobilized in 1915 and used as a tender thereafter. After the war, she was rebuilt as a merchant ship and served in this capacity until December 1929, when she was wrecked on the island of Gotland.</item>
+        <item>Ryūjō (Japanese: 龍驤 "Prancing Dragon") was a light aircraft carrier built for the Imperial Japanese Navy (IJN) during the early 1930s. Small and lightly built in an attempt to exploit a loophole in the Washington Naval Treaty of 1922, she proved to be top-heavy and only marginally stable and was back in the shipyard for modifications to address those issues within a year of completion. With her stability improved, Ryūjō returned to service and was employed in operations during the Second Sino-Japanese War. During World War II, she provided air support for operations in the Philippines, Malaya, and the Dutch East Indies, where her aircraft participated in the Second Battle of the Java Sea. During the Indian Ocean raid in April 1942, the carrier attacked British merchant shipping with her guns and aircraft. Ryūjō next participated in the Battle of the Aleutian Islands in June. She was sunk by American carrier aircraft at the Battle of the Eastern Solomons on 24 August 1942.</item>
+        <item>SMS Siegfried was the lead ship of the six–member Siegfried class of coastal defense ships (Küstenpanzerschiffe) built for the German Imperial Navy. Her sister ships were Beowulf, Frithjof, Heimdall, Hildebrand, and Hagen. Siegfried was built by the Germaniawerft shipyard between 1888 and 1890, and was armed with a main battery of three 24–centimeter (9.4 in) guns. She served in the German fleet throughout the 1890s and was rebuilt in 1903 - 1904. She served in the VI Battle Squadron after the outbreak of World War I in August 1914, but saw no action. Siegfried was demobilized in 1915 and used as a barracks ship thereafter. She was ultimately broken up for scrap in 1920.</item>
+        <item>SMS Roon[a] was the lead ship of her class of armored cruisers built for the German Kaiserliche Marine (Imperial Navy) in the early 1900s as part of a major naval expansion program aimed at strengthening the fleet. The ship was named after Field Marshal Albrecht von Roon. She was built at the Kaiserliche Werft in Kiel, being laid down in August 1902, launched in June 1903, and commissioned in April 1906. The ship was armed with a main battery of four 21 cm (8.3 in) guns and had a top speed of 20.4 knots (37.8 km/h; 23.5 mph). Like many of the late armored cruisers, Roon was quickly rendered obsolescent by the advent of the battlecruiser; as a result, her career was limited.</item>
+        <item>Moskva (Russian: Москва, lit.\'Moscow\', [mɐskˈva]), formerly Slava (Слава, \'Glory\') was a guided missile cruiser of the Russian Navy. Commissioned in 1983, she was the lead ship of the Project 1164 Atlant class, named after the city of Moscow. With a crew of 510, Moskva was the flagship of the Black Sea Fleet and the most powerful warship in the region.</item>
+        <item>USS Des Moines (CA-134) was the lead ship of the class of United States Navy heavy cruisers. She was the first ship in the United States Navy to feature the auto loading Mark 16 8-inch/55 caliber gun, the first of its type in the world. She was the second ship of the US Navy to be commissioned with the name of the capitol of Iowa, Des Moines.</item>
+        <item>USS Ohio (BB-12), a Maine-class pre-dreadnought battleship, was the third ship of her class and the third ship of the United States Navy to be named for the 17th state. She was laid down at the Union Iron Works shipyard in San Francisco in April 1899, was launched in May 1901, and was commissioned into the fleet in October 1904. She was armed with a main battery of four 12-inch (305 mm) guns and could steam at a top speed of 18 knots (33 km/h; 21 mph). Ohio initially served in the Asiatic Fleet, from 1905 to 1907, when she returned to the United States. In December that year, she joined the Great White Fleet for its world cruise, which lasted until early 1909. She served with the Atlantic Fleet for the next four years conducting a peacetime training routine. In 1914, she was sent to Mexico to protect American interests in the country during the Mexican Revolution. She served as a training ship during America\'s involvement in World War I from 1917 to 1918. Thoroughly obsolete by that time, Ohio was decommissioned in July 1919, and was ultimately sold for scrap in March 1923 under the terms of the Washington Naval Treaty.</item>
+        <item>Yamato (大和, lit.\'Great Harmony\') was the lead ship of her class of battleships built for the Imperial Japanese Navy (IJN) shortly before World War II. She and her sister ship, Musashi, were the heaviest and most powerfully armed battleships ever constructed, displacing nearly 72,000 tonnes (71,000 long tons) at full load and armed with nine 46 cm (18.1 in) Type 94 main guns, which were the largest guns ever mounted on a warship. Named after the ancient Japanese Yamato Province, Yamato was designed to counter the numerically superior battleship fleet of the United States, Japan\'s main rival in the Pacific. She was laid down in 1937 and formally commissioned a week after the attack on Pearl Harbor in December 1941. Throughout 1942, she served as the flagship of the Combined Fleet, and in June 1942 Admiral Isoroku Yamamoto directed the fleet from her bridge during the Battle of Midway, a disastrous defeat for Japan. Musashi took over as the Combined Fleet flagship in early 1943, and Yamato spent the rest of the year moving between the major Japanese naval bases of Truk and Kure in response to American threats. In December 1943, Yamato was torpedoed by an American submarine which necessitated repairs at Kure, where she would also be refitted with additional anti-aircraft guns and radar in early 1944. Although present at the Battle of the Philippine Sea in June 1944, she played no part in the battle.</item>
+        <item>Bismarck was the first of two Bismarck-class battleships built for Nazi Germany\'s Kriegsmarine. Named after Chancellor Otto von Bismarck, the ship was laid down at the Blohm &amp; Voss shipyard in Hamburg in July 1936 and launched in February 1939. Work was completed in August 1940, when she was commissioned into the German fleet. Bismarck and her sister ship Tirpitz were the largest battleships ever built by Germany, and two of the largest built by any European power.</item>
+        <item>Musashi (武蔵), named after the former Japanese province,[2] was one of four planned Yamato-class battleships[N 1] built for the Imperial Japanese Navy (IJN), beginning in the late 1930s. The Yamato-class ships were the heaviest and most powerfully armed battleships ever constructed,[4] displacing almost 72,000 long tons (73,000 t) fully loaded and armed with nine 460-millimetre (18.1 in) main guns. Their secondary armament consisted of four 155-millimetre (6.1 in) triple-gun turrets formerly used by the Mogami-class cruisers. They were equipped with six or seven floatplanes to conduct reconnaissance.</item>
+        <item>The second USS San Diego (CL-53) was an Atlanta-class light cruiser of the United States Navy, commissioned just after the US entry into World War II, and active throughout the Pacific theater. Armed with 16 5 in (127 mm)/38 cal DP anti-aircraft guns and 16 Bofors 40 mm AA guns, the Atlanta-class cruisers had one of the heaviest anti-aircraft broadsides of any warship of World War II. San Diego was one of the most decorated US ships of World War II, being awarded 18 battle stars, and was the first major Allied warship to enter Tokyo Bay[3] after the surrender of Japan. Decommissioned in 1946, the ship was sold for scrapping in December 1960.</item>
+        <item>USS Enterprise (CV-6) was a Yorktown-class carrier built for the United States Navy during the 1930s. She was the seventh U.S. Navy vessel of that name. Colloquially called "The Big E", she was the sixth aircraft carrier of the United States Navy. Launched in 1936, she was one of only three American carriers commissioned before World War II to survive the war (the others being Saratoga and Ranger). She participated in more major actions of the war against Japan than any other United States ship. These actions included the attack on Pearl Harbor — 18 Douglas SBD Dauntless dive bombers of her air group arrived over the harbor during the attack; seven were shot down with eight airmen killed and two wounded, making her the only American aircraft carrier with men at Pearl Harbor during the attack and the first to sustain casualties during the Pacific War[3] — the Battle of Midway, the Battle of the Eastern Solomons, the Battle of the Santa Cruz Islands, various other air-sea engagements during the Guadalcanal Campaign, the Battle of the Philippine Sea, and the Battle of Leyte Gulf. Enterprise earned 20 battle stars, the most for any U.S. warship in World War II, and was the most decorated U.S. ship of World War II. She was also the first American ship to sink a full-sized enemy warship after the Pacific War had been declared when her aircraft sank the Japanese submarine I-70 on 10 December 1941.[4] On three occasions during the war, the Japanese announced that she had been sunk in battle, inspiring her nickname "The Grey Ghost". By the end of the war, her planes and guns had downed 911 enemy planes, sunk 71 ships, and damaged or destroyed 192 more.</item>
+    </string-array>
+    <integer-array name="data_price">
+        <item>13700000</item>
+        <item>10000000</item>
+        <item>14000000</item>
+        <item>13700000</item>
+        <item>15500000</item>
+        <item>16600000</item>
+        <item>17000000</item>
+        <item>13300000</item>
+        <item>12900000</item>
+        <item>15200000</item>
+        <item>18000000</item>
+        <item>20000000</item>
+    </integer-array>
+    <string-array name="data_img_url">
+        <item>https://wiki.wgcdn.co/images/thumb/3/33/%C3%84gir_wows_main.jpg/298px-%C3%84gir_wows_main.jpg</item>
+        <item>https://wiki.wgcdn.co/images/thumb/9/92/Ryujo_%281%29.jpg/800px-Ryujo_%281%29.jpg</item>
+        <item>https://wiki.wgcdn.co/images/thumb/d/dc/SiegSalvo.jpg/150px-SiegSalvo.jpg</item>
+        <item>https://wiki.wgcdn.co/images/thumb/b/b4/Roon_wows_main.jpg/298px-Roon_wows_main.jpg</item>
+        <item>https://wiki.wgcdn.co/images/thumb/b/bb/%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0_wows_main.jpg/298px-%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0_wows_main.jpg</item>
+        <item>https://wiki.wgcdn.co/images/thumb/9/99/DMCamps.jpg/150px-DMCamps.jpg</item>
+        <item>https://wiki.wgcdn.co/images/thumb/8/88/Ohio_wows_main.jpg/298px-Ohio_wows_main.jpg</item>
+        <item>https://wiki.wgcdn.co/images/thumb/e/e3/Yamato_wows_main.jpg/298px-Yamato_wows_main.jpg</item>
+        <item>https://wiki.wgcdn.co/images/thumb/9/9c/Bismarck_wows_main.jpg/298px-Bismarck_wows_main.jpg</item>
+        <item>https://wiki.wgcdn.co/images/thumb/7/7c/Musashi_wows_main.jpg/298px-Musashi_wows_main.jpg</item>
+        <item>https://wiki.wgcdn.co/images/thumb/6/6a/San_Diego_wows_main.jpg/298px-San_Diego_wows_main.jpg</item>
+        <item>https://wiki.wgcdn.co/images/thumb/2/2d/Enterprise_wows_main.jpg/298px-Enterprise_wows_main.jpg</item>
+    </string-array>
+</resources>
