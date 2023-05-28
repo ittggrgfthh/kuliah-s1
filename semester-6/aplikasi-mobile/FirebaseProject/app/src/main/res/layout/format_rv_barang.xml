@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+    
+    <androidx.cardview.widget.CardView
+        android:backgroundTint="@color/purple_700"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/rvItemCode"
+                android:hint="Kode Barang"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/rvItemName"
+                android:hint="Nama Barang"
+                android:textColor="@color/white"
+                android:layout_below="@id/rvItemCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/rvItemUnit"
+                android:hint="Satuan Barang"
+                android:textColor="@color/white"
+                android:layout_below="@id/rvItemName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/rvItemPrice"
+                android:hint="Harga Barang"
+                android:textColor="@color/white"
+                android:layout_below="@id/rvItemUnit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            
+            <ImageView
+                android:id="@+id/deleteButton"
+                android:src="@drawable/baseline_delete_24"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
