@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:hint="No" />
+
+    <TextView
+        android:id="@+id/code"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/number"
+        android:textSize="15dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:hint="Kode" />
+
+    <TextView
+        android:id="@+id/matkulName"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/code"
+        android:textSize="15dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:hint="Nama Matkul" />
+
+    <TextView
+        android:id="@+id/sks"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_toRightOf="@id/matkulName"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:hint="SKS" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/sks"
+        android:textSize="15dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:hint="N.Angka" />
+
+    <TextView
+        android:id="@+id/grade"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/score"
+        android:textSize="15dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:hint="N.Huruf" />
+
+
+</RelativeLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="KARTU HASIL STUDI"
+        android:textSize="25dp"
+        android:background="@drawable/border_radius"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIM          : A12.2020.06476"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama       : Farhan Taqi Abdussalam"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jurusan   : Sistem Informasi - S1"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/red">
+
+        <TextView
+            android:id="@+id/number"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:hint="No" />
+
+        <TextView
+            android:id="@+id/code"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/number"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:hint="Kode" />
+
+        <TextView
+            android:id="@+id/matkul_name"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/code"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:hint="Nama Matkul" />
+
+        <TextView
+            android:id="@+id/sks"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:layout_toRightOf="@id/matkul_name"
+            android:hint="SKS" />
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/sks"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:hint="N.Angka" />
+
+        <TextView
+            android:id="@+id/grade"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/score"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:hint="N.Huruf" />
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_khs"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</LinearLayout>
