@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context="com.example.activity.DetailKhs">
+
+    <TextView
+        android:id="@+id/title_matkul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_border_blue"
+        android:gravity="center_horizontal"
+        android:text="Nama Matkul"
+        android:paddingHorizontal="10dp"
+        android:textColor="@color/blue"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_border_blue"
+        android:layout_marginTop="10dp"
+        android:paddingTop="10dp">
+
+        <TableRow android:orientation="vertical">
+
+            <TextView
+                android:text="@string/label_code_matkul"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edt_code_matkul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Isi kode maktul!" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Matakuliah"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/edt_name_matkul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Isi nama maktul!"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="SKS"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/edt_sks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Isi sks maktul!"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="N. Angka"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/edt_grade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Isi nilai angka maktul!"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="N. Huruf"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/edt_letter_grade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Isi nilai huruf maktul!"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Predikat"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/edt_predicate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Isi predikat maktul!"/>
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/update_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blue"
+            android:background="@drawable/button_primary"
+            android:layout_marginRight="10dp"
+            android:text="Update"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/cancel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/yellow"
+            android:background="@drawable/button_warning"
+            android:layout_marginRight="10dp"
+            android:text="Cancel"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/delete_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:background="@drawable/button_danger"
+            android:text="Delete"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
