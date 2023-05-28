@@ -126,13 +126,34 @@
         android:layout_height="wrap_content">
 
         <Button
-            android:id="@+id/save"
+            android:id="@+id/update"
             android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
+            android:backgroundTint="@color/yellow"
+            android:textColor="@color/black"
             android:onClick="SaveMhs"
-            android:text="save"
+            android:text="update"
             android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/red"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            android:onClick="Cancel"
+            android:text="delete"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
         <Button
             android:id="@+id/cancel"

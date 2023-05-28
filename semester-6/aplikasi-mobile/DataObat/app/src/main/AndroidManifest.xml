@@ -12,6 +12,9 @@
         android:theme="@style/Theme.DataObat"
         tools:targetApi="31">
         <activity
+            android:name=".UpdateObat"
+            android:exported="false" />
+        <activity
             android:name=".InputObat"
             android:exported="false" />
         <activity
