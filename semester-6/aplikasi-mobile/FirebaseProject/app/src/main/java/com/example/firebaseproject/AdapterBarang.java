@@ -3,6 +3,7 @@ package com.example.firebaseproject;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,6 +12,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -41,6 +43,7 @@ public class AdapterBarang extends RecyclerView.Adapter<AdapterBarang.ViewHolder
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         holder.rvCode.setText(modelBarangArrayList.get(position).getItemCode());
         holder.rvName.setText(modelBarangArrayList.get(position).getItemName());
+        holder.rvAmount.setText(modelBarangArrayList.get(position).getItemAmount());
         holder.rvUnit.setText(modelBarangArrayList.get(position).getItemUnit());
         holder.rvPrice.setText(String.valueOf(modelBarangArrayList.get(position).getItemPrice()));
         holder.rvDelete.setOnClickListener(new View.OnClickListener() {
@@ -63,11 +66,26 @@ public class AdapterBarang extends RecyclerView.Adapter<AdapterBarang.ViewHolder
                     }
                 }).setNegativeButton("Tidak", new DialogInterface.OnClickListener() {
                     @Override
-                    public void onClick(DialogInterface dialog, int which) {
-
-                    }
+                    public void onClick(DialogInterface dialog, int which) {}
                 }).setMessage("Apakah anda yakin menghapus " + modelBarangArrayList.get(position).getItemName() + "?");
             builder.show();
+            }
+        });
+
+        holder.rvCardView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(), UpdateDataBarang.class);
+                intent.putExtra("itemKey", modelBarangArrayList.get(position).getKey());
+                intent.putExtra("itemCode", modelBarangArrayList.get(position).getItemCode());
+                intent.putExtra("itemName", modelBarangArrayList.get(position).getItemName());
+                intent.putExtra("itemUnit", modelBarangArrayList.get(position).getItemUnit());
+                intent.putExtra("itemAmount", modelBarangArrayList.get(position).getItemAmount());
+                intent.putExtra("itemPrice", String.valueOf(modelBarangArrayList.get(position).getItemPrice()));
+                intent.putExtra("itemExpired", modelBarangArrayList.get(position).getItemExpired());
+                intent.putExtra("itemPackaging", modelBarangArrayList.get(position).getItemPackaging());
+                intent.putExtra("itemType", modelBarangArrayList.get(position).getItemType());
+                v.getContext().startActivity(intent);
             }
         });
     }
@@ -78,15 +96,18 @@ public class AdapterBarang extends RecyclerView.Adapter<AdapterBarang.ViewHolder
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
-        TextView rvCode, rvName, rvUnit, rvPrice;
+        TextView rvCode, rvName, rvAmount, rvUnit, rvPrice;
         ImageView rvDelete;
+        CardView rvCardView;
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             rvCode = itemView.findViewById(R.id.rvItemCode);
             rvName = itemView.findViewById(R.id.rvItemName);
+            rvAmount = itemView.findViewById(R.id.rvItemAmount);
             rvUnit = itemView.findViewById(R.id.rvItemUnit);
             rvPrice = itemView.findViewById(R.id.rvItemPrice);
             rvDelete = itemView.findViewById(R.id.deleteButton);
+            rvCardView = itemView.findViewById(R.id.rvCardView);
         }
     }
 }

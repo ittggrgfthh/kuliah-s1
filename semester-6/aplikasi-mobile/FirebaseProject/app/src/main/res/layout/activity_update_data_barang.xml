@@ -6,13 +6,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:paddingHorizontal="10dp"
-    tools:context=".MainActivity">
+    tools:context=".UpdateDataBarang">
 
     <TextView
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Tambah Obat"
+        android:text="Edit data Obat"
         android:textSize="20sp"
         android:textAppearance="@style/TextAppearance.AppCompat.Title" />
 
@@ -81,8 +81,8 @@
         android:minHeight="48dp" />
 
     <Button
-        android:id="@+id/saveButton"
-        android:text="simpan"
+        android:id="@+id/updateButton"
+        android:text="Ubah"
         android:layout_below="@id/itemType"
         android:layout_marginTop="10dp"
         android:layout_width="match_parent"
